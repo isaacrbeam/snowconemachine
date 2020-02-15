@@ -1,0 +1,28 @@
+html, body{
+	background-color:#557a95; 
+}
+body{
+	height:100%;
+	background-image: url('images/wide_machine.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+@media screen and (max-width: 500px) { /* Specific to this particular image */
+  body {
+background-image: url('images/tall_machine.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+  }
+}
+
+.transparent_bg{	
+	background-color:rgb(184,218,255,0.9)
+}
+.transparent_white_bg{	
+	background-color:rgb(220,220,220,0.9);
+}
+.nontransparent{
+	opacity:1;
+}
